@@ -1,7 +1,13 @@
+<<<<<<< HEAD
+=======
+var katzDeli = [];
+
+>>>>>>> 6f122152a00b38c49147e3cc83829141c011b017
 function takeANumber(katzDeliLine,name){
   katzDeliLine.push(name);
   return (`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`);
 }
+<<<<<<< HEAD
 
 function nowServing(katzDeliLine){
   if (katzDeliLine.length === 0){
@@ -24,3 +30,5 @@ function currentLine(line){
     return `The line is currently: ${position.join(', ')}`
   }
 }
+=======
+>>>>>>> 6f122152a00b38c49147e3cc83829141c011b017
